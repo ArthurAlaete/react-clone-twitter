@@ -1,6 +1,17 @@
 import React from 'react';
 
-import { Container, Header, BackIcon, ProfileInfo } from './styles';
+import ProfilePage from '../ProfilePage/index';
+
+import { Container, 
+    Header, 
+    BackIcon, 
+    ProfileInfo, 
+    BottomMenu, 
+    HomeIcon, 
+    SearchIcon, 
+    BellIcon, 
+    EmailIcon 
+} from './styles';
 
 const Main: React.FC = () => {
     return (
@@ -11,12 +22,12 @@ const Main: React.FC = () => {
                 </button>
 
                 <ProfileInfo>
-                    <strong>Nome da Pessoa</strong>
+                    <strong>Arthur Alaete</strong>
                     <span>613 Tweets</span>
                 </ProfileInfo>
             </Header>
 
-            {/* <ProfilePage />
+            {/* <ProfilePage /> */}
 
 
             <BottomMenu>
@@ -24,7 +35,7 @@ const Main: React.FC = () => {
                 <SearchIcon />
                 <BellIcon />
                 <EmailIcon />
-            </BottomMenu> */}
+            </BottomMenu>
         </Container>
     )
 }
