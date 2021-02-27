@@ -7,7 +7,6 @@ import {
     Email
 } from '../../styles/icons';
 
-
 export const Container = styled.div`
     display: flex;
     flex-direction: column;
@@ -40,14 +39,13 @@ export const Header = styled.div`
         outline: 0;
         cursor: pointer;
 
-        a:hover {
+        &:hover {
             background: var(--twitter-dark-hover)
         }
     }
 
 
 `;
-
 
 export const ProfileInfo = styled.div`
     margin-left: 17px;
@@ -64,6 +62,7 @@ export const ProfileInfo = styled.div`
         color: var(--gray);
     }
 `;
+
 export const BottomMenu = styled.div`
     z-index: 2;
     position: fixed;
@@ -97,7 +96,7 @@ const iconsCSS = css`
     }
 `;
 
-export const BackIcon  = styled(ArrowLeft)`  // Usando o Icon
+export const BackIcon  = styled(ArrowLeft)` 
     width: 24px;
     height: 24px;
 

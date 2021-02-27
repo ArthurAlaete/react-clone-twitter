@@ -27,7 +27,7 @@ const Main: React.FC = () => {
                 </ProfileInfo>
             </Header>
 
-            {/* <ProfilePage /> */}
+            <ProfilePage />
 
 
             <BottomMenu>
