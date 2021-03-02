@@ -11,6 +11,8 @@ import {
     EditButton
 } from './styles';
 
+import Feed from '../Feed/index';
+
 
 const ProfilePage = () => {
     return (
@@ -46,6 +48,9 @@ const ProfilePage = () => {
                     </span>
                 </Followage>
             </ProfileData>
+
+            <Feed />
+
         </Container>    
     );
 }
