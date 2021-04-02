@@ -1,6 +1,6 @@
-import styled from 'styled-components';
+import styled, { css }from 'styled-components';
 
-import { Retweet } from '../../styles/icons';
+import { Retweet, Favorite, Chat } from '../../styles/icons';
 
 export const  Container = styled.div`
     display: flex;
@@ -36,7 +36,6 @@ export const  Body = styled.div`
     display: flex;
     margin-top: 3px;
     position: relative;
-
 `;  
 
 export const  Avatar = styled.div`
@@ -111,7 +110,71 @@ export const  ImageContent = styled.div`
     }
 `;
 
-export const  Icons = styled.div``;   
-export const  Status = styled.div``;  
-export const  CommentIcon = styled.div``;  
-export const  LikeIcon = styled.div``;  
+export const  Icons = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 11px auto 0;
+    width: 100%; /* Mobile */
+
+    @media(min-width: 330px) {
+        width: 63% /* Tablet */
+    }
+
+    > div {
+        cursor: pointer;
+        &:hover {
+            opacity: 0.7;
+        }
+    }
+`;
+
+export const  Status = styled.div`
+    
+    display: flex;
+    align-items: center;
+
+    > svg {
+        margin-right: 5px;
+    }
+
+    &:nth-child(1) {
+        &, > svg path {
+            color: var(--gray);
+        }
+    }
+
+    &:nth-child(2) {
+        color: var(--retweet);   
+        > svg path {
+            fill: var(--retweet);
+        }
+    }
+
+    &:nth-child(3) {
+        color: var(--like);   
+        > svg {
+            fill: var(--like);
+        }
+    }
+
+`;  
+
+const icons = css`
+    width: 19px;
+    height:19px;
+`;
+
+
+export const CommentIcon = styled(Chat)`
+    ${icons}
+`;
+
+export const RetweetIconBottom = styled(Retweet)`
+    ${icons}
+`;  
+
+export const LikeIcon = styled(Favorite)`
+    ${icons}
+`;  

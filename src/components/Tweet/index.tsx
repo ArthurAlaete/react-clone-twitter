@@ -15,6 +15,7 @@ import {
     Icons, 
     Status,
     CommentIcon,
+    RetweetIconBottom,
     LikeIcon
 } from './styles';
 
@@ -48,7 +49,7 @@ const Tweet = () => {
                             18
                         </Status>
                         <Status>
-                            <RetweetIcon />
+                            <RetweetIconBottom />
                             32
                         </Status>
                         <Status>
