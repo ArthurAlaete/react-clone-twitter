@@ -29,16 +29,19 @@ const Tweet = () => {
 
             <Body>
                 <Avatar />
+
                 <Content>
                     <Header>
                         <strong>Developer</strong>
-                        <span>developer</span>
+                        <span> developer</span>
                         <Dot />
                         <Time>20 de Jan</Time>
                     </Header>
 
                     <Description>Aprimorando o desenvolvimento</Description>
+                    
                     <ImageContent />
+                    
                     <Icons>
                         <Status>
                             <CommentIcon />
