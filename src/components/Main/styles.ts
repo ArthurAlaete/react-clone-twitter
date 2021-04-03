@@ -68,7 +68,8 @@ export const BottomMenu = styled.div`
     position: fixed;
     bottom: 0;
     left: 0;
-
+    background: var(--primary);
+    
     border-top: 1px solid var(--outline);
     width: 100%;
 
