@@ -3,7 +3,7 @@
 <br>
 # UI Clone - Twitter ✨
 
-This project is a clone of the Twitter platform interface in order to put into practice the technologies used.
+This project is a clone of the [Twitter](https://twitter.com/) platform interface in order to put into practice the technologies used.
 <br>
 <br>
 
