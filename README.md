@@ -3,13 +3,13 @@
 <br>
 # UI Clone - Twitter ✨
 
-This project is a clone of the [Twitter](https://twitter.com/) platform interface in order to put into practice the technologies used.
+This project is a clone of the <a href="https://twitter.com/" target="_blank">Twitter</a> platform interface in order to put into practice the technologies used.
 <br>
 <br>
 
 ## Status 🎯
 
-- ✔️ Version 1.0.0 - Done.
+- ✔️ <a href="https://react-ui-clone-twitter.netlify.app" target="_blank">Twitter Clone</a> Version 1.0.0 - Done.
 
 ## Technologies ⚙️
 
